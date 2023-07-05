@@ -1,15 +1,28 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "private": true,
+  "description": "林剑艺组件库",
+  "main": "xj_component.umd.js",
+  "keywords": "xj_component",
+  "license": "MIT",
+  "name": "xj_component",
+  "version": "0.1.7",
+  "private": false,
+  "authot": {
+    "name": "lin"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib ./packages/index.js --name xj_component --dest lib/xj_component"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "mitt": "^3.0.0",
+    "router": "^1.3.8",
+    "vue": "^3.0.0",
+    "vue-router": "^4.2.2",
+    "xj_component": "^0.2.11"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
@@ -21,12 +34,25 @@
     "@vue/compiler-sfc": "^3.0.0",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "compression-webpack-plugin": "^5.0.1",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
+    "github-markdown-css": "^5.2.0",
+    "happypack": "^5.0.1",
+    "hard-source-webpack-plugin": "^0.13.1",
+    "highlight.js": "^11.8.0",
+    "html-loader": "^1.3.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "typescript": "~4.1.5"
+    "typescript": "~4.1.5",
+    "image-webpack-loader": "^8.1.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-loader": "^17.2.2",
+    "vue-markdown-loader": "^2.5.0",
+    "markdown-loader": "^8.0.0",
+    "vue-template-compiler": "^2.7.14"
   }
 }

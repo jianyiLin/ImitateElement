@@ -1,6 +1,8 @@
 # XJComponent
 
-#### 组件库支持vue2与vue3项目，支持ts环境，已开发出button按钮，messgae消息提示，carousel走马灯，select多选框，drawer抽屉等组件
+#### 如果对您有帮助的话，请点个 starred，谢谢您
+
+#### 组件库支持 vue2 与 vue3 项目，支持 ts 环境，已开发出 button 按钮，messgae 消息提示，carousel 走马灯，select 多选框，drawer 抽屉等组件
 
 #### 代码包括显示的网站代码 src/ 和原生组件代码 packages/ 运行时必须要使用 cnpm install 安装依赖
 
@@ -21,7 +23,7 @@
 
 ## 如何使用？
 
-## 安装依赖包，必须为 cnpm install 因为部分依赖用 npm 无法获取
+### 安装依赖包，必须为 cnpm install 因为部分依赖用 npm 无法获取
 
 ```
 cnpm install
